@@ -59,6 +59,7 @@ const Forecast = () => {
     <h2>Find Current Weather Conditions</h2>
     
     <form onSubmit={getForecast}>
+        <div>
                 <input
                     type="text"
                     placeholder="Enter City"
@@ -66,6 +67,7 @@ const Forecast = () => {
                     className={classes.textInput}
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
+                    size='40'
                     />
                 <label className={classes.Radio}>
                     <input
@@ -87,6 +89,7 @@ const Forecast = () => {
                         />
                     Celcius
                 </label>
+            </div>    
                 <button className={classes.Button} type="submit">Get Forecast</button>
             </form>
 
