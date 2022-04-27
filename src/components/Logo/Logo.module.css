@@ -1,5 +1,5 @@
 /* Logo.module.css */
-.circle {
+/* .circle {
     width: 60%;
     height: 60%;
     background: yellow;
@@ -43,4 +43,16 @@
     height: 60px;
     background: rgb(226, 224, 224);
     border-radius: 60px;
+ } */
+.cube{
+   background-color: #FFF;
+   margin: auto;
+}
+ .clima{
+    align-items: center;
+    max-width: 20%;
+    background-color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 25px;
+   
  }

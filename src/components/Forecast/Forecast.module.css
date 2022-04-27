@@ -1,10 +1,12 @@
 .TextInput {
-    font-size: large;
+    font-size: x-large;
     border: 1px solid #EEEEEE;
     padding: 5px;
     border-radius: 3px;
     display: block;
     margin: 5px auto;
+    size: 40;
+    
 }
 
 .TextInput:focus {
@@ -14,7 +16,11 @@
 }
 
 .Radio {
-    font-size: small;
+    font-size: medium;
+    display: block;
+    margin: 5px;
+    align-items: baseline;
+    padding: 1px;
 }
 
 .Button {
@@ -27,6 +33,7 @@
     color: white;
     cursor: pointer;
     margin: 5px auto;
+    text-transform: uppercase;
 
 }
 
